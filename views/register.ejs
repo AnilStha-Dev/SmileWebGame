@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1> SignUp</h1>
+                <p>It just takes 30 seconds</p>
+            </header>
+            <main class="signup-body">
+                <form method="POST" action="auth_register">
+                    <p>
+                    <label for="fullname">First Name </label>
+                    <input type="text" name="firstname" placeholder="Your Firstname" id="fullname">
+                </p>
+                <p>
+                    <label for="fullname">Last Name </label>
+                    <input type="text" name="lastname" placeholder="Your Lastname" id="fullname">
+                </p>
+                <p>
+                    <label for="email">Email </label>
+                    <input type="email" name="email" placeholder="Your Email" id="email">
+                </p>
+                <p>
+                    <label for="password">Password </label>
+                    <input type="password" name="password" placeholder="Enter Password" id="password">
+                </p>
+                <p><input type="submit" id="submit" value="Create Account"></p>
+                </form>
+            </main>
+            
+        </div>
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+
+    </div>
+    
+</body>
+</html>
